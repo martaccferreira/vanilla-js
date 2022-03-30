@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Countdown</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Yearly Countdown</h1>
+    <div class="year-countdown">
+      <div>
+        <span id="y-day"></span>
+        <h5>days</h5>
+      </div>
+      <div>
+        <span id="y-hour"></span>
+        <h5>hours</h5>
+      </div>
+      <div>
+        <span id="y-min"></span>
+        <h5>minutes</h5>
+      </div>
+      <div>
+        <span id="y-sec"></span>
+        <h5>seconds</h5>
+      </div>
+    </div>
+
+    <h1>Costumized Countdown</h1>
+
+    <label for="deadline">Deadline:</label>
+    <input type="date" id="deadline" value=""/>
+    <button class="submit">Submit</button>
+
+    <div class="custom-countdown">
+      <div>
+        <span id="c-day">0</span>
+        <h5>days</h5>
+      </div>
+      <div>
+        <span id="c-hour">0</span>
+        <h5>hours</h5>
+      </div>
+      <div>
+        <span id="c-min">0</span>
+        <h5>minutes</h5>
+      </div>
+      <div>
+        <span id="c-sec">0</span>
+        <h5>seconds</h5>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
